@@ -1357,6 +1357,9 @@ ul.slick-dots li.slick-active button {
     margin: 0;
     font-size: 30px;
   }
+  .fourth__content__people__person {
+    min-height: 666px;
+  }
   .fourth__content__people__person__webs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
