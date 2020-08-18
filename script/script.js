@@ -4,10 +4,6 @@ $(document).ready(function(){
 
     $('.contact__info__background').css('width',((parseInt($('.container').css('width'))-parseInt($('.content').css('width')))/2+368)+'px')
 
-    // if (parseInt($('.container').css('width'))<=1278){
-    //     $('.fourth__content__people__person__other').prepend('<div class="fourth__content__people__person__other__image other__image__active"><img src="sources/rectangleOther.png" alt=""><p class="active">someone</p></div>')
-    // }
-
     if (parseInt($('.container').css('width'))<=1278){
         if ($('.enablability').hasClass('disabled'))
             $('.enablability').removeClass('disabled').addClass('enabled')
@@ -28,7 +24,7 @@ $(document).ready(function(){
                 touchThreshold: 6,
             }
         },{
-            breakpoint: 320,
+            breakpoint: 420,
             settings:{
                 slidesToShow: 1,
                 touchThreshold: 4,
@@ -50,7 +46,7 @@ $(document).ready(function(){
                 touchThreshold: 6,
             }
         },{
-            breakpoint: 320,
+            breakpoint: 420,
             settings:{
                 slidesToShow: 1,
                 touchThreshold: 4,
@@ -61,7 +57,6 @@ $(document).ready(function(){
     })}
 
     //!================================RESIZE===========================
-    // var activeWasAdded=false
     $(window).on('resize', function(){
         $('.contact__info__background').css('width',((parseInt($('.container').css('width'))-parseInt($('.content').css('width')))/2+368)+'px')
     
@@ -72,16 +67,6 @@ $(document).ready(function(){
             $('.last__content__data').css('max-width', '100%')
         }
 
-        // let activeWasAdded=false
-        // if (parseInt($('.container').css('width'))<=1278){
-        //     if (activeWasAdded==false){
-        //         activeWasAdded=true
-        //         $('.fourth__content__people__person__other').prepend('<div class="fourth__content__people__person__other__image other__image__active"><img src="sources/rectangleOther.png" alt=""><p class="active">someone</p></div>')
-        //     }
-        // } else{
-        //     $('.other__image__active').remove()
-        //     activeWasAdded=false
-        // }
         if (parseInt($('.container').css('width'))<=1278){
             if ($('.enablability').hasClass('disabled'))
                 $('.enablability').removeClass('disabled').addClass('enabled')
@@ -103,7 +88,7 @@ $(document).ready(function(){
                         touchThreshold: 6,
                     }
                 },{
-                    breakpoint: 320,
+                    breakpoint: 420,
                     settings:{
                         slidesToShow: 1,
                         touchThreshold: 4,
@@ -129,11 +114,11 @@ $(document).ready(function(){
                         touchThreshold: 6,
                     }
                 },{
-                    breakpoint: 320,
+                    breakpoint: 420,
                     settings:{
                         slidesToShow: 1,
                         touchThreshold: 4,
-                        dots: false,
+                        arrows: false,
                     }
                 }],
                 variableWidth: true
@@ -150,4 +135,11 @@ $(document).ready(function(){
         $('.burger__back').toggleClass('burger-active')
     })
 
+    $('.burger__back__list li').on('click', function(){
+        $('.burger').toggleClass('burger-active')
+        $('.burger__back').toggleClass('burger-active')
+    })
+
 })
+
+

@@ -6,6 +6,7 @@
   list-style: none;
   outline: none;
   min-width: 0;
+  background-size: cover;
   font-family: 'Open Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -1188,6 +1189,12 @@ html, body {
   z-index: 103;
 }
 
+@media (max-width: 419px) {
+  .slick-list {
+    margin: 0px 15px;
+  }
+}
+
 @media (max-width: 320px) {
   .slick-list {
     margin: 0px 15px;
@@ -1393,6 +1400,7 @@ ul.slick-dots li.slick-active button {
 @media (max-width: 640px) {
   .container {
     padding-top: 15px;
+    height: 820px;
   }
   .tittle {
     min-width: 0;
@@ -1570,6 +1578,5 @@ ul.slick-dots li.slick-active button {
 @media (max-width: 1069px) {
   .fourth__content__people__person__other__image {
     margin-right: 5px;
-    min-width: 195px;
   }
 }
