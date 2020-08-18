@@ -1134,9 +1134,6 @@ html, body {
   .fird__content__pics__slide {
     margin-right: 5px;
   }
-  .fourth__content__people {
-    display: static;
-  }
   .fourth__content__people__image {
     display: none;
   }
@@ -1449,8 +1446,6 @@ ul.slick-dots li.slick-active button {
   }
   .burger {
     position: absolute;
-    -ms-flex-line-pack: left;
-        align-content: left;
     top: 0;
     right: 15px;
     margin-top: 15px;
