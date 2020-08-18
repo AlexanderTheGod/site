@@ -1566,3 +1566,10 @@ ul.slick-dots li.slick-active button {
     top: 0;
   }
 }
+
+@media (max-width: 1069px) {
+  .fourth__content__people__person__other__image {
+    margin-right: 5px;
+    min-width: 195px;
+  }
+}

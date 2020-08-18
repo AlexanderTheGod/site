@@ -35,6 +35,7 @@ $(document).ready(function(){
                 arrows: false,
             }
         }],
+        variableWidth: true
     })}
 
     if (parseInt($('.container').css('width'))<1070){$('.fourth__content__people__person__other').slick({
@@ -56,6 +57,7 @@ $(document).ready(function(){
                 arrows: false,
             }
         }],
+        variableWidth: true
     })}
 
     //!================================RESIZE===========================
@@ -108,6 +110,7 @@ $(document).ready(function(){
                         arrows: false,
                     }
                 }],
+                variableWidth: true
             })
         } else{
             $('.fourth__content__people__person__other').slick('unslick')
@@ -133,7 +136,7 @@ $(document).ready(function(){
                         dots: false,
                     }
                 }],
-                
+                variableWidth: true
             })
         }else{
             $('.fird__content__pics').slick('unslick')
