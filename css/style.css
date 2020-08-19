@@ -1294,7 +1294,7 @@ html, body {
   z-index: 102;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   .slick-arrow {
     display: none;
   }
