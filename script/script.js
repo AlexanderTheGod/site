@@ -56,6 +56,8 @@ $(document).ready(function(){
         variableWidth: true
     })}
 
+    var firstSliderOn=false;
+    var secondSliderOn=false;
     //!================================RESIZE===========================
     $(window).on('resize', function(){
         $('.contact__info__background').css('width',((parseInt($('.container').css('width'))-parseInt($('.content').css('width')))/2+368)+'px')
@@ -75,7 +77,7 @@ $(document).ready(function(){
                 $('.enablability').removeClass('enabled').addClass('disabled')
         }
     
-        if (parseInt($('.container').css('width'))<1070){
+        if (parseInt($('.container').css('width'))<1070 && firstSliderOn==false){
             $('.fourth__content__people__person__other').slick({
                 dots:true,
                 slidesToShow: 3,
@@ -96,12 +98,14 @@ $(document).ready(function(){
                     }
                 }],
                 variableWidth: true
-            })
-        } else{
+            });
+            firstSliderOn=true
+        } else if(parseInt($('.container').css('width'))>=1070 && firstSliderOn==true){
             $('.fourth__content__people__person__other').slick('unslick')
+            firstSliderOn=false
         };
 
-        if (parseInt($('.container').css('width'))<=1278){
+        if (parseInt($('.container').css('width'))<=1278 && secondSliderOn==false){
             $('.fird__content__pics').slick({
                 dots:true,
                 slidesToShow: 3,
@@ -122,9 +126,11 @@ $(document).ready(function(){
                     }
                 }],
                 variableWidth: true
-            })
-        }else{
+            });
+            secondSliderOn=true
+        }else if(parseInt($('.container').css('width'))>1278 && secondSliderOn==true){
             $('.fird__content__pics').slick('unslick')
+            secondSliderOn=false
         };
     })
 
