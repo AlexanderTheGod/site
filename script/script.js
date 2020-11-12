@@ -22,7 +22,7 @@ $(function () {
         }
     });
 
-    $('img[src="sources/avaaa.jpg"]').on('click',function(){
+    $('img[src="sources/Avaaa.jpg"]').on('click',function(){
         window.scrollTo(0, 0);
         if($('.burger__content__button').hasClass('isOpened')){
             $('.burger__content__button').toggleClass('isOpened');
