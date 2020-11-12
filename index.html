@@ -1,268 +1,210 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agnecy Landing Page</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>Landing page</title>
 </head>
-
 <body>
-    <form action="#" method="get">
 
-    <div class="container">
-        <div class="wrapper">
+    <section class="burger container-fluid">
+        <div class="burger__content">
+            <div class="burger__content__wrapper">
+                <img src="sources/avaaa.jpg" alt="Karpenko" class="rounded-circle">
+                <div class="nav-bar">
+                    <a href="#workS">work</a>
+                    <a href="#somethingS">something</a>
+                    <a href="#aboutS">about me</a>
+                    <a href="#loveS">Love?</a>
+                    <a href="#contactS">contact</a>
+                </div>
+            </div>
+            <div class="burger__content__button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="burger-background"></div>
+        </div>
+    </section>
 
-            <div class="wrapper__burger">
-                <div class="burger">
-                    <div class="burger__content">
+    <header class="container-fluid">
+        <div class="container">
+            <img src="sources/avaaa.jpg" alt="Karpenko" class="rounded-circle">
+            <div class="nav-bar">
+                <a href="#workS">work</a>
+                <a href="#somethingS">something</a>
+                <a href="#aboutS">about me</a>
+                <a href="#loveS">Love?</a>
+                <a href="#contactS">contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+
+        <section class="planet container-fluid">
+            <div class="content">
+                <div class="planet-content__title">Hello Wolrd!</div>
+                <span>scroll down</span>
+                <img src="sources/arrow.png" alt="arrow">
+            </div>
+        </section>
+
+        <section id="work" class="container-fluid">
+            <div id="workS" class="forScroll"></div>
+            <div class="work container">
+                <div class="work__card">
+                    <img src="sources/travel.png" alt="work">
+                    <div class="work__card__title">
+                        travel and explore
+                    </div>
+                    <div class="work__card__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias laboriosam maiores aperiam ad quibusdam consequuntur totam ullam. Aut saepe inventore odit repellat velit, reprehenderit dolores iusto, harum in possimus mollitia exercitationem et sapiente! Aliquid quisquam repellendus perferendis consequatur nulla dolorem?
+                    </div>
+                    <div class="work__card__open-close">
+                        <span></span>
                         <span></span>
                     </div>
                 </div>
-
-                <div class="burger__back">
-                    <ul class="burger__back__list">
-                        <a href="#home"><li>home</li></a>
-                        <a href="#portfolio"><li>portfolio</li></a>
-                        <a href="#about us"><li>about us</li></a>
-                        <a href="#contactTwo"><li>contact</li></a>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="content">
-                <header class="header">
-                    <ul class="header__list">
-                        <a href="#home"><li>home</li></a>
-                        <a href="#portfolio"><li>portfolio</li></a>
-                        <a href="#about us"><li>about us</li></a>
-                        <a href="#contact"><li>contact</li></a>
-                    </ul>
-                </header>
-
-                <div class="sub__header">
-                    <div class="tittle">
-                        our strong organaisation
+                <div class="work__card">
+                    <img src="sources/tools.png" alt="work">
+                    <div class="work__card__title">
+                        try harder
                     </div>
-                    <div class="sub__tittle">
-                        Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore
-                        et.
-                        ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.
+                    <div class="work__card__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam voluptatem magni nam excepturi temporibus, quo molestiae et dolores animi eligendi neque accusantium explicabo amet delectus! Architecto inventore, laboriosam dicta provident impedit facilis vel ipsum maxime, iusto doloribus reiciendis neque.
                     </div>
-                    <div class="button btn">Contact Us</div>
-                    <video src="" controls preload="metadata" poster="sources/video.PNG" class="video">
-                        <!-- <span>либо я тупой, либо автор макета piд@р@c, так как в шаблоне картинки есть, а в psd файле нет,
-                            зато есть бежевые квадраты</span>
-                        <img src="sources/VedioIcon.png" alt="videoicon"> -->
-                    <!-- </м> -->
-                </div>
-
-                <div class="second__content">
-                    <div class="second__content__left">
-                        <div class="second__tittle"><a name="home""></a>
-                            do you know we can provide for you ?
-                        </div>
-                        <div class="second__sub__tittle">
-                            Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt
-                            ut
-                            labore et.
-                        </div>
-                        <div class="second__button btn">Learn More</div>
-                    </div>
-                    
-                    <div class="second__content__grid">
-
-                        <div class="second__content__grid__cell">
-                            <img src="sources/sixer.png" alt="imageCell">
-                            <div class="second__content__grid__cell__tittle">
-                                Management
-                            </div>
-                            <div class="second__content__grid__cell__text">
-                                Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in
-                                didunt utlae ore etioe.Lorem ipsum new idolor
-                            </div>
-                        </div>
-
-                        <div class="second__content__grid__cell with__margin">
-                            <img src="sources/Pencil.png" alt="imageCell">
-                            <div class="second__content__grid__cell__tittle">
-                                UI /UX Design
-                            </div>
-                            <div class="second__content__grid__cell__text">
-                                Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in
-                                didunt utlae ore etioe.Lorem ipsum new idolor sit amet,
-                            </div>
-                        </div>
-
-                        <div class="second__content__grid__cell">
-                            <img src="sources/Diamond.png" alt="imageCell">
-                            <div class="second__content__grid__cell__tittle">
-                                Logo / Branding
-                            </div>
-                            <div class="second__content__grid__cell__text">
-                                Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in
-                                didunt utlae ore etioeew idolor sit amet,
-                            </div>
-                        </div>
-
-                        <div class="second__content__grid__cell with__margin">
-                            <img src="sources/Truck.png" alt="imageCell">
-                            <div class="second__content__grid__cell__tittle">
-                                Animation
-                            </div>
-                            <div class="second__content__grid__cell__text">
-                                Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in
-                                didunt utlae ore etioe.Lorem ipsum new idolor sit amet,
-                            </div>
-                        </div>
+                    <div class="work__card__open-close">
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
-
-                <div class="fird__content">
-                    <div class="fird__tittle"><a name="portfolio"></a>
-                        feature products
+                <div class="work__card">
+                    <img src="sources/time.png" alt="work">
+                    <div class="work__card__title">
+                        get rest
                     </div>
-                    <div class="fird__sub__tittle">
-                        Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.
+                    <div class="work__card__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam possimus fugiat illo laudantium voluptatum facere? Maiores, quisquam necessitatibus omnis ullam, earum quasi dolorem fugiat autem ut reprehenderit ipsa voluptatem unde. Nulla enim qui eveniet nemo pariatur expedita corrupti deserunt quam!
                     </div>
-                    <span></span>
-                    <ul class="fird__list">
-                        <li>all</li>
-                        <li>print template</li>
-                        <li>web template</li>
-                        <li>user interface</li>
-                        <li>mock-up</li>
-                    </ul>
-
-                    <div class="fird__content__pics">
-                        <div class="fird__content__pics__slide"><img src="sources/rectangle.png" class="fird__content__pics__image"></img></div>
-                        <div class="fird__content__pics__slide"><img src="sources/rectangle.png" class="fird__content__pics__image"></img></div>
-                        <div class="fird__content__pics__slide"><img src="sources/rectangle.png" class="fird__content__pics__image"></img></div>
-                        <div class="fird__content__pics__slide"><img src="sources/rectangle.png" class="fird__content__pics__image"></img></div>
-                        <div class="fird__content__pics__slide"><img src="sources/rectangle.png" class="fird__content__pics__image"></img></div>
-                        <div class="fird__content__pics__slide"><img src="sources/rectangle.png" class="fird__content__pics__image"></img></div>
-                        <div class="fird__content__pics__slide"><img src="sources/rectangle.png" class="fird__content__pics__image"></img></div>
-                        <div class="fird__content__pics__slide"><img src="sources/rectangle.png" class="fird__content__pics__image"></img></div>
-                    </div>
-                </div>
-
-                <div class="fourth__content">
-                    <div class="fourth__tittle"><a name="about us"></a>Meet our team</div>
-                    <div class="fourth__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</div>
-                    <span></span>
-                    
-                    <div class="fourth__content__people">
-                        <div class="fourth__content__people__image"></div>
-                        <div class="fourth__content__people__person">
-                            <div class="fourth__content__people__person__name fourth__flex">
-                                mark waugh
-                            </div>
-                            <div class="fourth__content__people__person__description fourth__flex">
-                                Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.
-                            </div>
-                            <ul class="fourth__content__people__person__webs fourth__flex">
-                                <li>Facebook</li>
-                                <li>Dribble</li>
-                                <li>Behance</li>
-                                <li>Twiter</li>
-                            </ul>
-                            <div class="fourth__content__people__person__other fourth__flex">
-                                <div class="fourth__content__people__person__other__image enablability disabled"><img src="sources/rectangleOther.png" alt=""><p class="active">MARK WAUGH</p></div>
-                                <div class="fourth__content__people__person__other__image"><img src="sources/rectangleOther.png" alt=""><p class="active">sokina jue</p></div>
-                                <div class="fourth__content__people__person__other__image"><img src="sources/rectangleOther.png" alt=""><p class="active">someone</p></div>
-                                <div class="fourth__content__people__person__other__image"><img src="sources/rectangleOther.png" alt=""><p class="active">someone</p></div>
-                                <div class="fourth__content__people__person__other__image"><img src="sources/rectangleOther.png" alt=""><p class="active">someone</p></div>
-                            </div>
-
-                        </div>
-
+                    <div class="work__card__open-close">
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>
+        </section>
 
-
-            <div class="fifth__content">
-                <div class="content">
-                    <div class="fifth__content__tittle">
-                        Design tips, tricks, and freebies. Delivered weekly.
+        <section id="something" class="container-fluid">
+            <div id="somethingS" class="forScroll"></div>
+            <div class=backImage></div>
+            <div class="something container">
+                <h2>Some knowlege from famous people</h2>
+                <div class="something__content">
+                    <div class="something__content__qoute">
+                        <div class="something__content__qoute__text">
+                            The first half of life consists of the capacity to enjoy without the chance, the last half consists of the chance without the capacity. 
+                        </div>
+                        <div class="something__content__qoute__autor">
+                            Mark Twain
+                        </div>
                     </div>
-                    <div class="fifth__content__text">
-                        Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.
+                    <div class="something__content__qoute">
+                        <div class="something__content__qoute__text">
+                            I am not young enough to know everything. 
+                        </div>
+                        <div class="something__content__qoute__autor">
+                            Oscar Wilde
+                        </div>
                     </div>
-                    <div class="fifth__content__email">
-                        <input type="text" class="fifth__content__email__input" placeholder="Email Address...">
-                        <button class="fifth__content__email__button btn">subscribe</button>
+                    <div class="something__content__qoute">
+                        <div class="something__content__qoute__text">
+                            An investment in knowledge always pays the best interest. 
+                        </div>
+                        <div class="something__content__qoute__autor">
+                            Benjamin Franklin
+                        </div>
+                    </div>
+                    <div class="something__content__qoute">
+                        <div class="something__content__qoute__text">
+                            If you can make a girl laugh - you can make her do anything. 
+                        </div>
+                        <div class="something__content__qoute__autor">
+                            Marilyn Monroe
+                        </div>
+                    </div>
+                    <div class="something__content__qoute">
+                        <div class="something__content__qoute__text">
+                            What to do if I'm right?
+                        </div>
+                        <div class="something__content__qoute__autor">
+                            Alexander Karpenko
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="content">
-                <div class="last__content">
-                    <div class="last__content__tittle">get in touch</div>
-                    <div class="last__content__text">
-                        Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.
-                    </div>
-                    <span></span>
-
-                    <div class="last__content__data">
-                        <div class="last__content__inputs">
-                            <input type="text" class="last__content__inputs__input" name="name" placeholder="Name">
-                            <input type="text" class="last__content__inputs__input" name="email"placeholder="Your Mail">
-                            <textarea name="textarea" class="last__content__inputs__input" name="message" placeholder="Type your message"></textarea>
+        <section id="about" class="container-fluid">
+            <div id="aboutS" class="forScroll"></div>
+            <div class="about container">
+                <h2>About me</h2>
+                <div class="about__content">
+                    <img src="sources/Avaaa.jpg" alt="Alexander">
+                    <div class="about__content__main">
+                        <div class="about__content__main__title">
+                            Alexander Karpenko
                         </div>
-                        <button class="last__content__button btn" type="submit">Send message</button>
-                    </div>
-
-                    <div class="contact__info">
-                        <div class="contanct__wrapper">
-                            <div class="contact__info__tittle">contact info</div>
-                            <div class="contact__info__content">
-                                <p>Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
-                                <p>redwan@deviserweb.com</p>
-                                <p><a name="contact" href="tel:8801761746373">(+88) 017 617 46373</a></p>
-                            </div>
+                        <span class="delimetre"></span>
+                        <div class="about__content__main__text">
+                            Hi my name is Alexander. Unfortunately or fortunately, this is not just a "lorem" text. I would like to tell you a little bit about myself, but it won't be a happy story at all. I hate almost everything around me. Most people do not cause me anything but aggression, I have to hide my real emotions behind a mask of a smile. Sometimes I don't even want to get up in the morning. I've already said a lot of bad things, but it's true. Despite all this, there is one very good feeling in me, it is <span class="Love">Love</span>, but unfortunately unrequited. Maybe that's why I hate everything around me... maybe.
                         </div>
-
-                        <div class="contact__info__background"></div>
                     </div>
-
                 </div>
             </div>
+        </section>
 
-            <footer class="footer">
-                <div class="content">
-
-                    <div class="footer__contanct__wrapper">
-                        <div class="footer__contact__info__tittle">contact info</div>
-                        <div class="footer__contact__info__content">
-                            <p class="footer__contact__info__content__p">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
-                            <p class="footer__contact__info__content__p">redwan@deviserweb.com</p>
-                            <p class="footer__contact__info__content__p"><a name="contactTwo" href="tel:8801761746373">(+88) 017 617 46373</a></p>
-                        </div>
+        <section id="love" class="container-fluid">
+            <div id="loveS" class="forScroll"></div>
+            <div class="backImage"></div>
+            <div class="love container">
+                <h2>And so... what about <span class="Love">Love</span>?</h2>
+                <div class="love__content">
+                    <img src="sources/heart.png" alt="Love">
+                    <div class="love__content__text">
+                        Not so long ago I understand what <span class="Love">Love</span> is. Why i write about it? i dont know, i just want. Anyway nobody wont notice it. I'm a romantic at heart, but I can't show it. It's probably hard to imagine that I really <span class="Love">Love</span> one girl, and that it hurts me a lot.
                     </div>
-
-                    <div class="footer__info">© Copyright @Junaed 2016, All rights reserved.</div>
-                    <ul class="footer__list">
-                        <a href="#"><img src="sources/Twitter_Rounded.png" alt="twitter"></a>
-                        <a href="#"><img src="sources/LinkedIn_Rounded.png" alt="linkedIn"></a>
-                        <a href="#"><img src="sources/Google_Rounded.png" alt="google"></a>
-                        <a href="#"><img src="sources/Facebook_Rounded.png" alt="facebook"></a>
-                    </ul>
                 </div>
-            </footer>
-            
-        </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="container-fluid">
+            <div id="contactS" class="forScroll"></div>
+            <div class="contact container">
+                <h2>contacts</h2>
+                <article>you can find me on...</article>
+                <div class="contact__content">
+                    <a href="https://www.instagram.com/a1exkarpenko/">
+                        <div class="contact__content__block">
+                            instagram
+                        </div>
+                    </a>
+                    <a href="https://vk.com/sashakarpenko">
+                        <div class="contact__content__block">
+                            vk
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
     </div>
-    </form>
 
     <script src="script/jquery-3.5.1.min.js"></script>
-    <script src="script/slick.min.js"></script>
     <script src="script/script.js"></script>
 </body>
-
 </html>
